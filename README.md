@@ -1,5 +1,7 @@
 # Cloud Analytics Assignment 1 - Streamlit Movie Database
 
+The website: https://mon-app-streamlit-1044218663266.europe-west1.run.app
+
 ## 📌 Project Overview
 This project is an interactive movie database application built with Streamlit. It connects to a Google BigQuery dataset to fetch and display movie information, ratings, and integrates with the TMDB API to display movie posters and extended metadata.
 
@@ -7,7 +9,7 @@ This project is an interactive movie database application built with Streamlit. 
 1. **Interactive Data Visualization & User Inputs**: 
    - We implemented dynamic search functionality using an autocomplete search box (`streamlit-searchbox`).
    - Advanced filtering options (Language, Genre, Release Year Range, Minimum Rating) allow users to interact with and query data seamlessly.
-2. **Custom UI/UX & Aesthetics**: 
+2. **Custom UI/UX & Aesthetics**: git
    - A custom dark purple glassmorphism theme was applied via CSS for a polished, modern look.
    - Movie posters are fetched from TMDB and displayed in an interactive 5-column grid.
 3. **Detail View & External API Integration**:
