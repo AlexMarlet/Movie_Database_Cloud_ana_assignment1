@@ -66,3 +66,4 @@ To manually deploy this Streamlit application to Google Cloud Run, follow these 
    streamlit run Assign1_code.py
    ```
 # Movie_Database_Cloud_ana_assignment1
+# Movie_Database_Cloud_ana_assignment1
