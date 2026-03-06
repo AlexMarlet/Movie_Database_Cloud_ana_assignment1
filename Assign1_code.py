@@ -35,9 +35,6 @@ page_bg_css = """
 st.markdown(page_bg_css, unsafe_allow_html=True)
 
 # Initialize BigQuery client
-import os
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "eighth-sandbox-480216-t1-22241b4171f4.json"
-
 @st.cache_resource
 def get_bq_client():
     return bigquery.Client()
@@ -243,9 +240,6 @@ if 'movie_results' in st.session_state and not st.session_state['movie_results']
                             st.session_state['selected_movie_id'] = row['movieId']
                             st.rerun()
                     displayed_items += 1
-            
-            if displayed_items == 0:
-                st.info("Aucun des films trouvés ne possède d'affiche sur TMDB.")
                         
     # --- DETAILS VIEW ---
     else:
